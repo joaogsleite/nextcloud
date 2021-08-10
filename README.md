@@ -1,5 +1,5 @@
 # Nextcloud
 
-Ubuntu/debian nextcloud using MariaDB and Nginx
+Ubuntu/Debian [Nextcloud](https://nextcloud.com/) setup using [MariaDB](https://mariadb.org/), [PHP8](https://www.php.net/releases/8.0/en.php), [Nginx](https://www.nginx.com/) and [Certbot](https://certbot.eff.org/)
 
 > Update *password* on `create-db.sql` file
