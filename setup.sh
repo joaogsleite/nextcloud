@@ -34,7 +34,7 @@ sudo apt install -y nginx
 #sudo mv cert.pem /etc/letsencrypt/live/nextcloud.example.com.crt
 #sudo mv key.pem /etc/letsencrypt/live/nextcloud.example.com.key
 #sudo chown -R www-data:www-data /etc/letsencrypt/live/
-cp ./nextcloud.conf to /etc/nginx/conf.d/nextcloud.conf
+sudo cp nextcloud.conf /etc/nginx/conf.d/nextcloud.conf
 
 
 # certbot
