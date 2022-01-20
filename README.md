@@ -7,4 +7,4 @@ Ubuntu/Debian [Nextcloud](https://nextcloud.com/) setup using [MariaDB](https://
 
 ### After installation
 
-* Enable app: External storage support: https://nextcloud.exemplo.com/settings/apps/installed/files_external
+* Enable app: External storage support: https://nextcloud.example.com/settings/apps/installed/files_external
