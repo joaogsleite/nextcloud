@@ -45,3 +45,9 @@ sudo certbot certonly --nginx
 # volume
 sudo mkdir -p /mnt/volume01/nextcloud
 sudo chown -R www-data:www-data /mnt/volume01/nextcloud
+
+
+# backups
+curl https://rclone.org/install.sh | sudo bash
+sudo apt install -y restic
+# copy rclone.conf from keepass (Restic entry) to ~/.config/rclone/rclone.conf
