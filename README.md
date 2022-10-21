@@ -10,7 +10,7 @@ Ubuntu/Debian [Nextcloud](https://nextcloud.com/) setup using [MariaDB](https://
 * Enable app: External storage support: https://nextcloud.example.com/settings/apps/installed/files_external
 
 
-### Backup
+### Backup/restore
 
 * Backup disk to google drive
 ```
