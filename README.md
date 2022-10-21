@@ -8,3 +8,10 @@ Ubuntu/Debian [Nextcloud](https://nextcloud.com/) setup using [MariaDB](https://
 ### After installation
 
 * Enable app: External storage support: https://nextcloud.example.com/settings/apps/installed/files_external
+
+
+### Backup
+
+```
+restic -r rclone:gdrive:Backups backup /mnt/volume01/nextcloud -v
+```
