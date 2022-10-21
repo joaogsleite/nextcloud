@@ -12,6 +12,13 @@ Ubuntu/Debian [Nextcloud](https://nextcloud.com/) setup using [MariaDB](https://
 
 ### Backup
 
+* Backup disk to google drive
 ```
 restic -r rclone:gdrive:Backups backup /mnt/volume01/nextcloud -v
+```
+
+* Mount backup snapshot to restore a file
+
+```
+restic -r rclone:gdrive:Backups mount /mnt/restic
 ```
