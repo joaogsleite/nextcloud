@@ -13,7 +13,13 @@ Ubuntu/Debian [Nextcloud](https://nextcloud.com/) setup using [MariaDB](https://
 ### Backup/restore
 
 * Backup disk to google drive
+
 ```
+ssh -L 53682:localhost:53682 pi@<hostname>
+```
+
+```
+rclone config reconnect gdrive:
 restic -r rclone:gdrive:Backups backup /mnt/volume01/nextcloud -v
 ```
 
