@@ -1,6 +1,20 @@
 
 # SMB
 
+0. Place disk on fstab:
+
+```
+sudo vim /etc/fstab
+```
+
+```
+/dev/sda1 /mnt/volume01 ext4 defaults 0 0
+```
+
+```
+sudo mount -a
+```
+
 1. Install
 
 ```
